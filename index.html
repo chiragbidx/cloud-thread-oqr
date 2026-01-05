@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Happy Paws Dog Sitter</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -48,47 +48,123 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Happy Paws</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
 
-    <div class="container my-5">
-      <h1>Hello, world!</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-5">
-          You've successfully loaded up the Bootstrap starter example.
-        </p>
-        <p>Feel free to download or copy-and-paste any parts of this example.</p>
-
-        <hr class="col-1 my-4">
-
-        <a href="https://getbootstrap.com" class="btn btn-primary">Read the Bootstrap docs</a>
-        <a href="https://github.com/twbs/examples" class="btn btn-secondary">View on GitHub</a>
+    <!-- Hero Section -->
+    <section class="py-5 bg-light text-center">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold mb-3">Dog Sitting You Can Trust</h1>
+            <p class="lead mb-4">Leave your pup in safe, loving hands! Whether you need daily walks, overnight care, or playtime while you're away, Happy Paws ensures your furry friend is happy and cared for.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Book a Meet &amp; Greet</a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Services</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center">
+                <span class="display-5 text-primary mb-3"><svg xmlns="http://www.w3.org/2000/svg" height="2em" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" opacity=".15"/><path d="M16 17a4 4 0 0 0-8 0"/><rect x="6" y="8" width="12" height="4" rx="2" opacity=".4"/></svg></span>
+                <h5 class="card-title mb-2">Dog Walking</h5>
+                <p class="card-text">Daily or occasional walk sessions to keep your dog active and happy. Flexible timings available throughout the week.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center">
+                <span class="display-5 text-primary mb-3"><svg xmlns="http://www.w3.org/2000/svg" height="2em" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="5" opacity=".15"/><path d="M7 16V8a5 5 0 0 1 10 0v8"/><rect x="6" y="18" width="12" height="2" rx="1" opacity=".4"/></svg></span>
+                <h5 class="card-title mb-2">Overnight Care</h5>
+                <p class="card-text">Going out of town? We provide in-home overnight stays, ensuring your dog feels comfortable and their routine remains uninterrupted.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center">
+                <span class="display-5 text-primary mb-3"><svg xmlns="http://www.w3.org/2000/svg" height="2em" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" opacity=".15"/><rect x="8" y="15" width="8" height="2" rx="1" opacity=".4"/><rect x="9" y="18" width="6" height="2" rx="1" opacity=".4"/></svg></span>
+                <h5 class="card-title mb-2">Feeding &amp; Check-Ins</h5>
+                <p class="card-text">Short visits for feeding, medication, and quick playtime. Perfect for busy days or when you can't make it home in time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Happy Clients</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0 text-center">
+                  <p class="mb-3">"Happy Paws took such amazing care of Max while I was out of town. Daily updates, lots of photos, and genuine affection. I wouldn’t trust anyone else!"</p>
+                  <footer class="blockquote-footer">Samantha R. &nbsp; <span class="badge rounded-pill bg-success">Dog Mom</span></footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <span class="text-success fw-bold">5.0</span>
+              <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <small class="text-muted ms-2">Reviewed by local pet owners</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Book a Free Consultation</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <form class="p-4 border rounded-3 bg-white shadow-sm">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Full name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="you@email.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="(555) 123-4567">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Details</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your dog and needs" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Panda branding badge -->
     <a
